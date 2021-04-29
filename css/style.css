@@ -3,3 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+header{
+    height: 80px;
+}
+
+/* jumbotron */
+.jumbotron{
+    height: 800px;
+}
+
+/* main */
+/* business section */
+#dropbox-business{}
+
+/* contacts section */
+#dropbox-contacts{}
+
+/* operation section */
+#dropbox-operations{}
+
+/* clients section */
+#dropbox-clients{}
+
+/* faq section */
+#faq{}
+/* end main */
+
+/* footer */
+footer{
+    height: 600px;
+    background-color: black;
+}
+
+/* debug */
+.debug header{
+    background-color: aqua;
+}
+
+.debug .jumbotron{
+    background-color: blueviolet;
+}
+
+.debug #dropbox-business{
+    height: 800px;
+    background-color: chartreuse;
+}
+
+.debug #dropbox-contacts{
+    height: 800px;
+    background-color: cyan;
+}
+
+.debug #dropbox-contacts{
+    height: 800px;
+    background-color: blue;
+}
+
+.debug #dropbox-clients{
+    height: 800px;
+    background-color: crimson;
+}
+
+.debug #faq{
+    height: 800px;
+    background-color: darkkhaki;
+}
