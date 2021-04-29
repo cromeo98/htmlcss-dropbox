@@ -27,6 +27,15 @@ body{
     margin: 0 auto;
 }
 
+.btn{
+    text-decoration: none;
+}
+
+.blue-btn{
+    color: white;
+    background-color: #0061ff;
+}
+
 /* header */
 header{
     height: 80px;
@@ -49,14 +58,13 @@ nav .list{
     display: inline-block;
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
-}
-
 /* logo */
 .top-logo{
     height: 80px;
+}
+
+.logo-box{
+    text-decoration: none;
 }
 
 .top-logo a svg{
@@ -74,7 +82,9 @@ header .logo-text{
 }
 
 /* button start */
-.btn-start{}
+nav .btn{
+    padding: 5px 15px;
+}
 
 /* jumbotron */
 .jumbotron{
@@ -88,6 +98,18 @@ header .logo-text{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.jumbotron .container p{
+    width: 25%;
+    font-size: 17px;
+}
+
+.jumbotron .btn{
+    padding: 10px 20px;
+}
+
+.cancel{
+    display: block;
+}
 /* main */
 /* business section */
 #dropbox-business{}
@@ -148,4 +170,8 @@ footer{
 /* .debug .container{
     height: 500px;
     background-color: blue;
+} */
+
+/* .debug nav a{
+    color: black;
 } */
