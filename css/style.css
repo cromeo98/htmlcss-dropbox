@@ -9,6 +9,17 @@ header{
     height: 80px;
 }
 
+/* logo */
+header .logo-img{
+    width: 32px;
+    height: 32px;
+}
+
+header .logo-text{
+    width: 97px;
+    height: 32px;
+}
+
 /* jumbotron */
 .jumbotron{
     height: 800px;
