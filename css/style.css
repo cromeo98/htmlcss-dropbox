@@ -23,21 +23,10 @@ header{
     height: 80px;
 }
 
-/* logo */
-header .logo-img{
-    width: 32px;
-    height: 32px;
-}
-
-header .logo-text{
-    width: 97px;
-    height: 32px;
-}
-
 /* navbar */
 nav{
-    width: 80%;
-    margin: 0 auto;
+    line-height: 80px;
+    vertical-align: middle;
 }
 
 nav .list ul li{
@@ -52,6 +41,21 @@ nav .list{
 nav a{
     text-decoration: none;
     color: black;
+}
+
+/* logo */
+.top-logo a svg{
+    height: 80px;
+}
+
+header .logo-img{
+    width: 32px;
+    height: 32px;
+}
+
+header .logo-text{
+    width: 97px;
+    height: 32px;
 }
 
 /* button start */
