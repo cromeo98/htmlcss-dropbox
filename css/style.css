@@ -59,7 +59,7 @@ nav .list ul li{
     list-style: none;
     display: inline-block;
     margin-left: 30px;
-    font-size: 17px;
+    font-size: 17.5px;
 }
 
 nav .list{
@@ -112,7 +112,7 @@ nav .list li:hover{
 
 /* jumbotron */
 .jumbotron{
-    height: 660px;
+    height: 738px;
     background-color: #b4d0e7;
 }
 
@@ -127,9 +127,10 @@ nav .list li:hover{
 }
 
 .jumbotron .container p{
-    width: 26%;
-    font-size: 17px;
-    margin: 25px 0 50px;
+    width: 27%;
+    font-size: 17.5px;
+    margin: 55px 0 43px;
+    line-height: 1.50;
 }
 
 .jumbotron .btn{
@@ -139,17 +140,20 @@ nav .list li:hover{
 .cancel{
     display: block;
     margin: 20px 0 50px;
+    font-size: 14px;
 }
 
 .jumbo-img{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-25%, -9%);
+    transform: translate(-25%, -6%);
 }
 /* main */
 /* business section */
-#dropbox-business{}
+#dropbox-business{
+    margin-top: 200px;
+}
 
 /* contacts section */
 #dropbox-contacts{}
