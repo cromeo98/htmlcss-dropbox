@@ -41,6 +41,14 @@ body{
     background-color: #3b85ff;
 }
 
+.inline-b{
+    display: inline-block;
+}
+
+.block{
+    display: block;
+}
+
 /* .pos-relative{
     position: relative;
 } */
@@ -170,16 +178,23 @@ nav .list li:hover{
 /* business section */
 #dropbox-business{
     margin-top: 100px;
+    padding-top: 80px;
 }
 
 #dropbox-business .col-container .col{
     width: 30%;
+    border: 1px solid lightgray;
 }
 
 #dropbox-business .col-container .centre{
     margin: 0 5%;
 }
 
+#dropbox-business .sngl-team{
+    text-align: center;
+    padding: 7px 0;
+    border-bottom: 1px solid lightgray ;
+}
 
 /* contacts section */
 #dropbox-contacts{}
@@ -208,6 +223,10 @@ footer{
 /* .debug .jumbotron{
     background-color: blueviolet;
 } */
+
+.debug #dropbox-business{
+    background-color: blueviolet;
+}
 
 .debug #dropbox-business .container{
     /* height: 800px; */
