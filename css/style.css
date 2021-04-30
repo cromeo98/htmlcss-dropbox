@@ -172,6 +172,15 @@ nav .list li:hover{
     margin-top: 100px;
 }
 
+#dropbox-business .col-container .col{
+    width: 30%;
+}
+
+#dropbox-business .col-container .centre{
+    margin: 0 5%;
+}
+
+
 /* contacts section */
 #dropbox-contacts{}
 
