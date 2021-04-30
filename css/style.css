@@ -37,6 +37,10 @@ body{
     background-color: #0061ff;
 }
 
+.blue-btn:hover{
+    background-color: #3b85ff;
+}
+
 /* header */
 header{
     height: 80px;
