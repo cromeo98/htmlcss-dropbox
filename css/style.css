@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-    width: 87%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -118,10 +118,13 @@ nav .list li:hover{
 .jumbotron{
     width: 100%;
     background-color: #b4d0e7;
+    margin-bottom: 100px;
     /* padding-bottom: 17px; */
 }
 
-.jumbotron .container{
+.jumbotron .jumbo-container{
+    width: 87%;
+    margin: auto;
     position: relative;
     bottom: -80px;
 }
@@ -166,7 +169,7 @@ nav .list li:hover{
 /* main */
 /* business section */
 #dropbox-business{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 /* contacts section */
@@ -198,7 +201,7 @@ footer{
 } */
 
 .debug #dropbox-business .container{
-    height: 800px;
+    /* height: 800px; */
     background-color: chartreuse;
 }
 
