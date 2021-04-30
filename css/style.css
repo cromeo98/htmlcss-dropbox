@@ -118,16 +118,12 @@ nav .list li:hover{
 .jumbotron{
     width: 100%;
     background-color: #b4d0e7;
-    padding-bottom: 17px;
+    /* padding-bottom: 17px; */
 }
 
 .jumbotron .container{
-    padding-top: 35px;
-}
-
-.jumbotron .centre-container{
-    padding-bottom: 72px;
     position: relative;
+    bottom: -80px;
 }
 
 .jumbotron .left-container{
@@ -136,10 +132,10 @@ nav .list li:hover{
 
 .jumbotron .right-container{
     width: 73%;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-25%, -40%);
+    transform: translate(-25%, -40%); */
 }
 
 .jumbotron h1{
@@ -164,7 +160,7 @@ nav .list li:hover{
     font-size: 14px;
 }
 
-.jumbo-img{
+.right-container img{
     width: 100%;
 }
 /* main */
@@ -201,7 +197,7 @@ footer{
     background-color: blueviolet;
 } */
 
-.debug #dropbox-business{
+.debug #dropbox-business .container{
     height: 800px;
     background-color: chartreuse;
 }
