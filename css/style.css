@@ -53,6 +53,38 @@ body{
     position: relative;
 }
 
+/* tick mark */
+.tick-mark {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.tick-mark::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 1px;
+    background-color: #3b85ff;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+.tick-mark::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 90%;
+    background-color: #3b85ff;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
 /* .pos-relative{
     position: relative;
 } */
@@ -185,13 +217,22 @@ nav .list li:hover{
     padding-top: 80px;
 }
 
+#dropbox-business .col-container{
+    display: grid;
+    grid-auto-flow: column;
+}
+
 #dropbox-business .col-container .col{
-    width: 30%;
+    width: 90%;
     border: 1px solid lightgray;
 }
 
 #dropbox-business .col-container .centre{
-    margin: 0 5%;
+    margin-left: 5%;
+}
+
+#dropbox-business .col-container .right{
+    margin-left: 10%;
 }
 
 #dropbox-business .sngl-team{
@@ -224,9 +265,42 @@ nav .list li:hover{
     padding: 15px 0;
 }
 
+.main-caract-list{
+    padding-bottom: 20px;
+}
+
+.main-caract-list li{;
+    padding: 10px 0;
+}
+
 #dropbox-business i{
     width: 20px;
     margin-right: 5px;
+}
+
+.free-trial{
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.buy-now-container{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.buy-now-btn{
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+#dropbox-business h4{
+    margin: 25px 0;
+}
+
+.plan-description-list li{
+    margin-bottom: 10px;
 }
 
 /* contacts section */
@@ -295,6 +369,6 @@ footer{
     color: black;
 } */
 
-.debug #dropbox-business .col .int-col-container{
+.debug #dropbox-business .col{
     background-color: white;
 }
