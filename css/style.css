@@ -49,6 +49,10 @@ body{
     display: block;
 }
 
+.pos-relative{
+    position: relative;
+}
+
 /* .pos-relative{
     position: relative;
 } */
@@ -155,7 +159,7 @@ nav .list li:hover{
     margin-bottom: 55px;
 }
 
-.jumbotron .container p{
+.jumbotron .jumbo-container p{
     font-size: 17.5px;
     margin-bottom: 43px;
     line-height: 1.50;
@@ -194,6 +198,35 @@ nav .list li:hover{
     text-align: center;
     padding: 7px 0;
     border-bottom: 1px solid lightgray ;
+}
+
+#dropbox-business .col .int-col-container{
+    padding: 30px 35px;
+}
+
+#dropbox-business .col .int-col-container .price-sect{
+    width: 50%;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+#dropbox-business .col .int-col-container li{
+    list-style: none;
+}
+
+#dropbox-business .col .int-col-container hr{
+    width: 50px;
+    border: none;
+    border-top: 1px solid grey;
+}
+
+.price-sect .price{
+    padding: 15px 0;
+}
+
+#dropbox-business i{
+    width: 20px;
+    margin-right: 5px;
 }
 
 /* contacts section */
@@ -261,3 +294,7 @@ footer{
 /* .debug nav a{
     color: black;
 } */
+
+.debug #dropbox-business .col .int-col-container{
+    background-color: white;
+}
