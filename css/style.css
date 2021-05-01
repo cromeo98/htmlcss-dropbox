@@ -220,6 +220,8 @@ nav .list li:hover{
 #dropbox-business .col-container{
     display: grid;
     grid-auto-flow: column;
+    width: 100%;
+    gap: 0%;
 }
 
 #dropbox-business .col-container .col{
