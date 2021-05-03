@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -305,6 +305,72 @@ nav .list li:hover{
     margin-bottom: 10px;
 }
 
+#dropbox-business h2{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.invoice-btns-container{
+    line-height: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.invoice-btn{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid grey;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.full{
+    border: 5px solid #0061ff;
+}
+
+.invoice-btns-container span{
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.container-enterprise-section{
+    margin: 50px 0;
+    border: 1px solid lightgrey;
+}
+
+.container-enterprise-section .team{
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#dropbox-business .contacts-container{
+    padding: 25px 35px;
+}
+
+.container-enterprise-section span, .container-enterprise-section p{
+    padding: 0 35px 25px
+}
+
+#dropbox-business .contacts-container h3{
+    font-size: 25px;
+}
+
+.contact-btn{
+    padding: 10px 45px;
+}
+
+.container-enterprise-section span{
+    font-weight: 600;
+}
+
+.container-enterprise-section p{
+    font-size: 14px;
+}
+
 /* contacts section */
 #dropbox-contacts{}
 
@@ -333,14 +399,14 @@ footer{
     background-color: blueviolet;
 } */
 
-.debug #dropbox-business{
+/* .debug #dropbox-business{
     background-color: blueviolet;
 }
 
 .debug #dropbox-business .container{
-    /* height: 800px; */
+    height: 800px;
     background-color: chartreuse;
-}
+} */
 
 .debug #dropbox-contacts{
     height: 800px;
