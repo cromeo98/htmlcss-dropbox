@@ -76,6 +76,10 @@ body{
 .no-bord{
     border: none;
 }
+
+li{
+    list-style: none;
+}
 /* tick mark */
 .tick-mark {
     position: relative;
@@ -128,7 +132,6 @@ nav{
 }
 
 nav .list ul li{
-    list-style: none;
     display: inline-block;
     margin-left: 30px;
     font-size: 17.5px;
@@ -564,6 +567,31 @@ nav .list li:hover{
 
 /* faq section */
 #faq{}
+
+#faq .container .title{
+    padding: 15px 0 35px;
+    font-size: 40px;
+}
+
+#faq .container .faq-list li{
+    padding: 30px 0;
+    font-size: 17px;
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+
+#faq .container .faq-list:last-child{
+    border-bottom: 1px solid lightgray;
+}
+
+#faq .container .faq-list .question{
+    width: 70%;
+}
+
+#faq .container .faq-list i{
+    width: 30%;
+    padding-left: 250px;
+}
 /* end main */
 
 /* footer */
@@ -605,10 +633,10 @@ footer{
     background-color: crimson;
 } */
 
-.debug #faq{
+/* .debug #faq{
     height: 800px;
     background-color: darkkhaki;
-}
+} */
 
 /* .debug .container{
     height: 500px;
