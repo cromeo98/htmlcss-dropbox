@@ -213,7 +213,7 @@ nav .list li:hover{
 /* main */
 /* business section */
 #dropbox-business{
-    margin-top: 100px;
+    margin-bottom: 100px;
     padding-top: 80px;
 }
 
@@ -372,10 +372,45 @@ nav .list li:hover{
 }
 
 /* contacts section */
-#dropbox-contacts{}
+#dropbox-contacts{
+    margin-bottom: 100px;
+}
+
+.img-business-partner, .text-business-partner{
+    width: 50%;
+}
+
+.img-business-partner img{
+    width: 100%;
+}
+
+.text-business-partner{
+    padding: 116px 85px;
+}
+
+.text-business-partner h2{
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.text-business-partner p{
+    padding: 30px 0;
+}
+
+.white-btn{
+    border: 1px solid black;
+    padding: 10px 25px;
+}
+
+.white-btn:hover{
+    background-color: #f5f5f5;
+    text-decoration: underline;
+}
 
 /* operation section */
-#dropbox-operations{}
+#dropbox-operations{
+    margin-bottom: 100px;
+}
 
 /* clients section */
 #dropbox-clients{}
@@ -408,12 +443,12 @@ footer{
     background-color: chartreuse;
 } */
 
-.debug #dropbox-contacts{
+/* .debug #dropbox-contacts{
     height: 800px;
     background-color: cyan;
-}
+} */
 
-.debug #dropbox-contacts{
+.debug #dropbox-operations{
     height: 800px;
     background-color: blue;
 }
@@ -437,6 +472,6 @@ footer{
     color: black;
 } */
 
-.debug #dropbox-business .col{
+/* .debug #dropbox-business .col{
     background-color: white;
-}
+} */
