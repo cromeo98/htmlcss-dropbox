@@ -487,6 +487,39 @@ nav .list li:hover{
     filter: invert(1);
 }
 
+/* logos bc-colors */
+#designit-logo{
+    background-color: #a2d39b;
+}
+
+#asu-logo{
+    background-color: #61082b;
+}
+
+#uf-logo{
+    background-color: #0093ce;
+}
+
+#topps-logo{
+    background-color: #ff1c1c;
+}
+
+#wbr-logo{
+    background-color: #d5001f;
+}
+
+#hearst-logo{
+    background-color: #b4d0e7;
+}
+
+#lonp-logo{
+    background-color: #0d2481;
+}
+
+#cco-logo{
+    background-color: #ffd830;
+}
+
 /* faq section */
 #faq{}
 /* end main */
