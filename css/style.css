@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -100,6 +100,7 @@ nav{
     line-height: 78px;
     position: fixed;
     background-color: white;
+    border-bottom: 1px solid lightgrey;
     z-index: 1;
 }
 
@@ -271,7 +272,7 @@ nav .list li:hover{
     padding-bottom: 20px;
 }
 
-.main-caract-list li{;
+.main-caract-list li{
     padding: 10px 0;
 }
 
@@ -404,7 +405,6 @@ nav .list li:hover{
 
 .white-btn:hover{
     background-color: #f5f5f5;
-    text-decoration: underline;
 }
 
 /* operation section */
@@ -444,12 +444,48 @@ nav .list li:hover{
     height: 1px;
 }
 
-
 #dropbox-operations a{
     text-decoration: underline;
 }
+
 /* clients section */
 #dropbox-clients{}
+
+.full-container{
+    width: 100%;
+    height: 60vh;
+    background-color: aqua;
+}
+
+#dropbox-clients .side-container{
+    width: 32.5%;
+    height: 70vh;
+    background-color: beige;
+}
+
+#dropbox-clients .centre-container{
+    width: 35%;
+    height: 70vh;
+    background-color: black;
+}
+
+#dropbox-clients .client-logo{
+    width: 50%;
+    height: 50%;
+}
+
+#dropbox-clients .client-logo #asu{
+    width: 40%;
+}
+
+#dropbox-clients .client-logo img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
 
 /* faq section */
 #faq{}
