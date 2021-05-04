@@ -81,7 +81,7 @@ li{
     list-style: none;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 /* tick mark */
@@ -115,6 +115,23 @@ h1, h2, h3{
     content: "";
     transform: translateX(10px) rotate(-45deg);
     transform-origin: left bottom;
+}
+
+/* chat button */
+#chat-btn{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #0d2481;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
 
 /* header */
@@ -645,6 +662,7 @@ footer .language span, .fa-caret-up{
 }
 
 /* debug */
+
 /* .debug header{
     background-color: aqua;
 } */
