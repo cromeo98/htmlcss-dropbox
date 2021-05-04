@@ -516,12 +516,40 @@ nav .list li:hover{
     background-color: #f5f5f5;
 }
 
+#dropbox-clients .centre-container .client-description{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+#dropbox-clients .centre-container img{
+    width: 40%;
+}
+
+#dropbox-clients .centre-container .client-description hr{
+    width: 50px;
+    margin: 30px 0 50px;
+    border: 1.5px solid #c5c5c5;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+#dropbox-clients .centre-container .client-description p{
+    line-height: 1.65;
+    margin-bottom: 50px;
+}
+
+#dropbox-clients .centre-container .client-description span{
+    font-size: 15px;
+}
+
 #dropbox-clients .client-logo{
     width: 50%;
     height: 50%;
 }
 
-#dropbox-clients .client-logo #asu{
+#dropbox-clients .client-logo #asu, #dropbox-clients .client-logo #cco{
     width: 40%;
 }
 
@@ -660,6 +688,18 @@ footer .language span, .fa-caret-up{
     color: #666666;
     vertical-align: bottom;
 }
+
+/* hover effects */
+/* clients section */
+.client-logo:active{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+#asu-description{
+    display: none;
+}
+
+
 
 /* debug */
 
