@@ -636,7 +636,7 @@ nav .list li:hover{
 }
 
 #faq .container .faq-list i{
-    width: 30%;
+    width: 29%;
     padding-left: 250px;
 }
 /* end main */
@@ -691,7 +691,7 @@ footer .language span, .fa-caret-up{
 
 /* hover effects */
 /* clients section */
-.client-logo:active{
+.client-logo:hover{
     border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -699,8 +699,31 @@ footer .language span, .fa-caret-up{
     display: none;
 }
 
+/* faq section */
+#faq .faq-list p{
+    width: 80%;
+    padding-top: 20px;
+    line-height: 1.6;
+    color: #7c8995;
+    display: none;
+}
 
+#faq .faq-list p a{
+    color: #7c8995;
+}
 
+#faq .faq-list li:hover p{
+    display: block;
+}
+
+#faq .faq-list li:hover i{
+    transform: rotate(180deg);
+    padding-left: 47px;
+}
+/* footer section */
+footer .foot-list li:hover a{
+    text-decoration: underline;
+}
 /* debug */
 
 /* .debug header{
