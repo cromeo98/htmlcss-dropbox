@@ -69,7 +69,7 @@ body{
 }
 
 .title{
-    font-size: 45px;
+    font-size: 50px;
     line-height: 1.1;
 }
 
@@ -79,6 +79,10 @@ body{
 
 li{
     list-style: none;
+}
+
+h1, h2, h3{
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 /* tick mark */
 .tick-mark {
@@ -112,9 +116,6 @@ li{
     transform: translateX(10px) rotate(-45deg);
     transform-origin: left bottom;
 }
-/* .pos-relative{
-    position: relative;
-} */
 
 /* header */
 header{
@@ -214,7 +215,6 @@ nav .list li:hover{
 
 .jumbotron h1{
     font-size: 73px;
-    font-family: 'Open Sans Condensed', sans-serif;
     margin-bottom: 55px;
 }
 
@@ -566,7 +566,9 @@ nav .list li:hover{
 }
 
 /* faq section */
-#faq{}
+#faq{
+    margin-bottom: 150px;
+}
 
 #faq .container .title{
     padding: 15px 0 35px;
@@ -596,8 +598,12 @@ nav .list li:hover{
 
 /* footer */
 footer{
-    height: 600px;
+    height: 658px;
     background-color: black;
+}
+
+footer .container{
+    padding-top: 150px;
 }
 
 /* debug */
@@ -650,3 +656,12 @@ footer{
 /* .debug #dropbox-business .col{
     background-color: white;
 } */
+
+.debug .foot-list-container{
+    /* height: 50px; */
+    background-color: lightgreen;
+}
+
+.debug .language{
+    background-color: white;
+}
